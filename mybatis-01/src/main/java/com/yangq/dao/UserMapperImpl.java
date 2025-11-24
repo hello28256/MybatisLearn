@@ -36,7 +36,6 @@ public class UserMapperImpl implements UserMapper {
         System.out.println("user = " + user);
         System.out.println("user = " + user);
         System.out.println("user = " + user);
-        System.out.println("user = " + user);
         return 0;
     }
 
