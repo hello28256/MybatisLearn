@@ -36,6 +36,8 @@ public class UserMapperImpl implements UserMapper {
 
     @Override
     public User getUserById(int id) {
+        int index = 0;
+        System.out.println(index);
         return null;
     }
 
