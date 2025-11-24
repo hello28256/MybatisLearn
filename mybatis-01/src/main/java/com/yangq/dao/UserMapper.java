@@ -1,1 +1,26 @@
-package com.yangq.dao;import com.yangq.pojo.User;import java.util.List;import java.util.Map;public interface UserMapper {    List <User> getUserList();    //增删改查    int addUser(User user);    int deleteUser(int id);    int updateUser(User user);    User getUserById(int id);    //git注释    //你好    //分页    List<User> getUserByLimit(Map<String,Integer> map);}
+package com.yangq.dao;
+
+import com.yangq.pojo.User;
+
+import java.util.List;
+import java.util.Map;
+
+public interface UserMapper {
+    List <User> getUserList();
+
+
+    //增删改查
+    int addUser(User user);
+
+    int deleteUser(int id);
+
+    int updateUser(User user);
+
+    User getUserById(int id);
+
+    //git注释
+    //你好
+
+    //分页
+    List<User> getUserByLimit(Map<String,Integer> map);
+}
