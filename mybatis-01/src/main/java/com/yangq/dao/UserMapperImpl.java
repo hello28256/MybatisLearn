@@ -26,6 +26,7 @@ public class UserMapperImpl implements UserMapper {
 
     @Override
     public int deleteUser(int id) {
+        System.out.println("id = " + id);
         return 0;
     }
 
