@@ -8,7 +8,6 @@
 *.zip
 *.tar.gz
 *.rar
-
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
