@@ -32,15 +32,7 @@ public class UserMapperImpl implements UserMapper {
 
     @Override
     public int updateUser(User user) {
-
-        System.out.println("user = " + user);
-        System.out.println("user = " + user);
-        System.out.println("user = " + user);
-        System.out.println("user = " + user);
-        System.out.println("user = " + user);
-        System.out.println("user = " + user);
-        System.out.println("user = " + user);
-        System.out.println("user = " + user);
+        System.out.println("helloworld");
         System.out.println("user = " + user);
         return 0;
     }
